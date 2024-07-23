@@ -1,0 +1,28 @@
+.student-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 1s;
+}
+.student-item:hover{
+    opacity: 0.5;
+}
+.student-item .studentname{
+    width: 80%;
+    text-align: left;
+    transform: translatey(50%);
+    color: #3498db;
+    transition: 1s;
+}
+.student-item .studentname.active{
+    text-decoration: line-through;
+    background-image: linear-gradient(blue,red,yellow,green,gray,#A235);
+}
+.list-group-item{
+    border: 1px solid #3498db;
+}
+.title{
+    color: #3498db;
+    padding: 30px;
+    text-transform: uppercase;
+}
