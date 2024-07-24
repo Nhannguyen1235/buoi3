@@ -16,7 +16,6 @@
 }
 .student-item .studentname.active{
     text-decoration: line-through;
-    background-image: linear-gradient(blue,red,yellow,green,gray,#A235);
 }
 .list-group-item{
     border: 1px solid #3498db;
